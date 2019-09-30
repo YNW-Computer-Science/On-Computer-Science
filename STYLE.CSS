@@ -9,6 +9,20 @@ body{
 /* End homepage styling */
 
 /* Start our story styling */
+h1{
+  text-align: center;
+  font-family:sans-serif;
+}
+h3{
+  text-align: center;
+    font-family: sans-serif;
+  }
+
+  img{image-orientation: center;
+
+
+  }
+
 
 /* End our Story styling */
 
