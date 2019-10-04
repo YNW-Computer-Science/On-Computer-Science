@@ -1,0 +1,29 @@
+p.Sponsors{
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-style: oblique;
+
+}
+
+body{
+  background-color: #FFE4C4;
+
+}
+
+p.bigbless{
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: oblique;
+}
+
+img.picofsponsors{
+  display: block;
+  margin-right: auto;
+}
+
+img.picofsponsors2{
+  display: block;
+  margin-left: auto;
+}
