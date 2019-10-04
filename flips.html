@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title></title>
+</head>
+  <body>
+<a href="file:///Volumes/quinnwatts/Flips%20Project/OurSponsers.HTML
+">| our sponsors |</a>
+<a href="">| contact us |</a>
+<a href="">| home page |</a>
+<a href="">| our story |</a>
+
+
+    <p class="Slatt">The Flips Project</p>
+
+<img class="Rockice" src="slatty.PNG" alt="flips logo">
+    <p class="omma">The Flips Project is a program that began with a mission to make the joy
+       of Gymnastics accessible to
+financially challenged Families in Central Oregon. Boys and girls ages 6-10 can bounce around during a
+class one hour a week for an 8 week session at OOA Gymnastics. The Class is taught by high school
+volunteers that have been involved in gymnastics themselves. Kids will get to learn balance, agility, and
+body awareness as well as fun tricks on Bault, Bars, Beam, Floor, and Tramp. Come join us for some fun,
+movement education, and beginning gymnastics!</p>
+<div class="slideshow-container">
+  <!-- Each image gets its own div container -->
+  <div class="mySlides fade">
+    <img src="img1.png" style="width:40%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img2.PNG" style="width:40%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img3.PNG" style="width:40%">
+    <div class="text"></div>
+  </div>
+
+</div>
+
+<!-- This javascript makes the slideshow move -->
+<script>
+  var slideIndex = 0;
+  showSlides();
+  // Determines how many images are going to be in the slideshow
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    // Rotates through the images and loops back to the first one
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+  </body>
+</html>
