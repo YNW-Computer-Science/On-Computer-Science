@@ -1,0 +1,45 @@
+/* start syle for all pages */
+body{
+    background-color: #FFE4C4 ;
+
+}
+/* end style for all pages */
+
+/* start home page styling */
+p.Slatt{
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+p.omma{
+  text-align: center;
+  font-size: 30px;
+
+}
+img.Rockice{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%
+}
+/* end home page styling */
+
+@media screen and  (min-width: 1600px){
+  h1{ font-size:100%;
+  }
+/* start sponsors styling */
+@media screen and  (min-width: 1600px){
+  h1{ font-size:100%;
+  }
+/* end sponsor styling */
+@media screen and  (min-width: 1600px){
+  h1{ font-size:100%;
+  }
+/* start contact us styling */
+@media screen and  (min-width: 1600px){
+  p.omma{ font-size:100%;
+  }
+/* end contact us styling */
+@media screen and  (min-width: 1600px){
+  h1{ font-size:100%;
+  }
