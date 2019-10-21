@@ -1,0 +1,138 @@
+
+<!-- saved from url=(0058)file:///Volumes/traycethompson/flips%20prodject/flips.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body class="Container" background="file:///Volumes/traycethompson/flips%20prodject/Background.jpg">/
+
+  
+    
+    <link rel="stylesheet" href="./flips_files/style.css">
+  <title></title>
+
+  
+<a href="file:///Volumes/quinnwatts/Flips%20Project/OurSponsers.HTML">| our sponsors |</a>
+<a href="file:///Volumes/traycethompson/flips%20prodject/flips.html">| contact us |</a>
+<a href="file:///Volumes/traycethompson/flips%20prodject/flips.html">| home page |</a>
+<a href="file:///Volumes/traycethompson/flips%20prodject/flips.html">| our story |</a>
+
+
+    <p class="Slatt">The Flips Project</p>
+
+<img class="Rockice" src="./flips_files/slatty.PNG" alt="flips logo">
+    <p class="omma">The Flips Project is a program that began with a mission to make the joy
+       of Gymnastics accessible to
+financially challenged Families in Central Oregon. Boys and girls ages 6-10 can bounce around during a
+class one hour a week for an 8 week session at OOA Gymnastics. The Class is taught by high school
+volunteers that have been involved in gymnastics themselves. Kids will get to learn balance, agility, and
+body awareness as well as fun tricks on Bault, Bars, Beam, Floor, and Tramp. Come join us for some fun,
+movement education, and beginning gymnastics!</p>
+<div class="slideshow-container">
+  <!-- Each image gets its own div container -->
+  <div class="mySlides fade">
+    <img src="./flips_files/img1.png" style="width:40%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./flips_files/img2.PNG" style="width:40%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./flips_files/img3.PNG" style="width:40%">
+    <div class="text"></div>
+  </div>
+
+</div>
+
+<!-- This javascript makes the slideshow move -->
+<script>
+  var slideIndex = 0;
+  showSlides();
+  // Determines how many images are going to be in the slideshow
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    // Rotates through the images and loops back to the first one
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+
+
+        <link rel="stylesheet" href="Pan.css"/>  <!--Links to the CSS -->
+
+
+    <script type = "text/javascript">  // JavaScript code
+
+             var slideimages = new Array()      //SlideShow process begins
+             imgAlign = "center"
+             slideimages[0] = new Image() // create new instance of image object
+             slideimages[0].src = "img1.png" // set image src property to
+             slideimages[1] = new Image()
+             slideimages[1].src = "img2.PNG"  //Image source
+             slideimages[2] = new Image()
+             slideimages[2].src ="img3.PNG"
+
+
+        </script>
+
+        
+
+           <!-- Background Images-->
+            <div class="headerMenu">   <!-- Div class for menus -->
+
+                        <h1> My Student Life </h1>
+
+
+                        <div id="menu">  <!-- created Menus-->
+            <ul>
+                <a href="file:///Volumes/traycethompson/flips%20prodject/WelcomePage.html"> Welcome </a>
+                <a href="file:///Volumes/traycethompson/flips%20prodject/flips.html"></a>                              <!--Menu links-->
+                <a href="file:///Volumes/traycethompson/flips%20prodject/Menu.html"> Menu </a>
+                <a href="file:///Volumes/traycethompson/flips%20prodject/flips.html"> </a>
+            </ul>
+
+
+
+            </div>
+
+
+
+
+                   <header>
+
+                         <h2 color="white"> Welcome to my Student Life </h2>
+
+                  </header>
+
+    <img src="file:///Volumes/traycethompson/flips%20prodject/Welcome.jpg" width="500" height="300" id="slide">  <!--Image -->
+
+
+    <script type="text/javascript">
+     var step=0       //starts
+
+    function slideit(){   //function called slideit
+
+     if (!document.images)
+      return
+     document.getElementById('slide').src = slideimages[step].src  //Gets image by ID and follows the sliding process
+     if (step<2)
+      step++
+     else
+      step=0
+
+     //call function "slideit()" every 2.5 seconds
+
+     setTimeout("slideit()",2500)
+    }
+
+    slideit()  //Enable the function to perform
+
+    </script>
+  
+  
+
+</div></body></html>
